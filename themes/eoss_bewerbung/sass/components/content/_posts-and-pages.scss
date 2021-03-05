@@ -21,3 +21,19 @@
 	clear: both;
 	margin: 0 0 1.5em;
 }
+
+
+.blog {
+	.entry-header {
+		display: inline-block;
+		float: right;
+		
+		&:nth-of-type(2) {
+			float: left;
+	}
+		
+	.entry-content {
+		.more-link {
+			display: none;
+		}
+}
