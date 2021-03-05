@@ -36,4 +36,12 @@
 		.more-link {
 			display: none;
 		}
+		
+	.entry-link {
+		display: inline-block;
+		float: left;
+		
+		&:nth-of-type(2) {
+			float: right;
+		}
 }
