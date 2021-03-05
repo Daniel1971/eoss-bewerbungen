@@ -33,6 +33,12 @@
 		the_excerpt();
 		?>
 	</div><!-- .entry-content -->
+	
+	<div>
+		<a href="<?php the_permalink()?>" class="own-more-link">
+                Mehr lesen
+            	</a>
+	</div>	
 
 	<footer class="entry-footer">
 		<?php eoss_base_entry_footer(); ?>
