@@ -34,7 +34,7 @@
 		?>
 	</div><!-- .entry-content -->
 	
-	<div>
+	<div class="entry-link>
 		<a href="<?php the_permalink()?>" class="own-more-link">
                 Mehr lesen
             	</a>
