@@ -14,7 +14,8 @@
 
 	<?php eoss_base_post_thumbnail(); ?>
 	
-	<header class="entry-header">
+	<div class="entry-text">
+		<header class="entry-header">
 		<?php
 		if (is_singular()) :
 			the_title('<h1 class="entry-title">', '</h1>');
@@ -33,6 +34,8 @@
 		the_excerpt();
 		?>
 	</div><!-- .entry-content -->
+		
+	</div>	
 	
 	<div class="entry-link>
 		<a href="<?php the_permalink()?>" class="own-more-link">
